@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { GapReport } from "@/components/socratic/GapReport";
 import { QuestionStage } from "@/components/socratic/QuestionStage";
 import { TopicInput } from "@/components/socratic/TopicInput";
-import { Toaster } from "@/components/ui/sonner";
+
 import { generateDiagnostic } from "@/lib/socratic.functions";
 import type { Diagnostic } from "@/lib/socratic.server";
 
@@ -80,7 +80,7 @@ function Index() {
 
   return (
     <main className="min-h-screen px-4 py-10 sm:px-6 sm:py-14">
-      <Toaster />
+      
       <header className="mx-auto mb-10 flex max-w-4xl flex-col items-center text-center">
         <div className="flex items-center gap-3">
           <span className="flex size-10 items-center justify-center rounded-xl border border-mastery/40 bg-mastery/10 text-mastery">
