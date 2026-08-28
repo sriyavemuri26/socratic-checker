@@ -97,15 +97,16 @@ function Index() {
         <TopicInput onStart={start} loading={loading} loadingTopic={loadingTopic} />
       )}
 
-      {phase === "quiz" && diagnostic && (
+      {phase === "quiz" && diagnostic && diagnostic.questions[current] && (
         <QuestionStage
           topic={diagnostic.topic}
-          question={diagnostic.questions[current]}
+          question={diagnostic.questions[current]!}
           index={current}
           total={diagnostic.questions.length}
           onAnswer={answer}
         />
       )}
+
 
       {phase === "report" && diagnostic && (
         <GapReport diagnostic={diagnostic} answers={answers} onReset={reset} />

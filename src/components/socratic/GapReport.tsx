@@ -23,7 +23,7 @@ export function GapReport({
   onReset: () => void;
 }) {
   const results = diagnostic.questions.map((q, i) => {
-    const chosen = q.options[answers[i]];
+    const chosen = q.options[answers[i] ?? -1];
     const correctOption = q.options.find((o) => o.correct)!;
     return { q, chosen, correctOption, correct: Boolean(chosen?.correct) };
   });
