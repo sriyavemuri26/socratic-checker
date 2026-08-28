@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { GapReport } from "@/components/socratic/GapReport";
 import { QuestionStage } from "@/components/socratic/QuestionStage";
 import { TopicInput } from "@/components/socratic/TopicInput";
-import { Toaster } from "@/components/ui/sonner";
+
 import { generateDiagnostic } from "@/lib/socratic.functions";
 import type { Diagnostic } from "@/lib/socratic.server";
 
