@@ -1,6 +1,6 @@
 # Socratic Checker
 
-> **Note**: This was a vibecoded application built for **DevFest DC 2026** using [Lovable](https://lovable.dev). The entire experience — from the dark-mode UI to the AI-powered diagnostic engine — was generated and iterated on with AI assistance, then refined into a polished single-page learning tool.
+> **Note**: This was a vibecoded application built for **DevFest DC 2026** using [Lovable](https://lovable.dev). 
 
 **[Live Demo](https://socratic-checker.lovable.app)**
 
@@ -8,7 +8,7 @@
 
 ## Video Demo
 
-[Loom / video demo link — add here]
+[Watch the Demo here!](https://www.loom.com/share/3233e704dc5847b6954138c06ce4b4b1)
 
 ---
 
@@ -31,7 +31,7 @@ The goal is to help learners locate the *cognitive gap*, not just the test score
 
 ### 1. Data Acquisition
 
-The user enters any topic — for example, "Pointer Arithmetic," "Photosynthesis," or "Market Equilibrium" — either by typing into a search-style input or selecting a preset pill.
+The user enters any topic — for example, "Pointer Arithmetic," "Photosynthesis," or "Market Equilibrium" — either by typing into a search-style input or selecting a preset topic.
 
 That topic is sent to a server function (`generateDiagnostic`) which calls the **Lovable AI Gateway** using the `google/gemini-2.5-flash` model. The prompt instructs the model to act as a Socratic diagnostician and return strictly formatted JSON containing:
 
