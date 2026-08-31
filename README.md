@@ -2,7 +2,7 @@
 
 > **Note**: This was a vibecoded application built for **DevFest DC 2026** using [Lovable](https://lovable.dev). 
 
-**[Live Demo](https://socratic-checker.lovable.app)**
+**[Click here to access the live website!](https://socratic-checker.lovable.app)**
 
 ---
 
